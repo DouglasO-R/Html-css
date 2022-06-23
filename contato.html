@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>
+          <img src="./src/assets/images/logo.png" alt="Logo da empresa" />
+        </h1>
+
+        <nav>
+          <ul class="header__menu">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./produtos.html">produto</a></li>
+            <li><a href="#">contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form action="" class="form">
+        <label for="name" class="form__label">Name</label>
+        <input
+          id="name"
+          type="text"
+          class="form__input"
+          placeholder="Inform your name"
+          required
+        />
+
+        <label for="email" class="form__label">Email</label>
+        <input
+          id="email"
+          type="email"
+          class="form__input"
+          placeholder="example@gmail.com"
+          required
+        />
+
+        <label for="telefone" class="form__label">Celphone</label>
+        <input
+          id="telefone"
+          type="tel"
+          class="form__input"
+          placeholder="(xx) xxxxx-xxxx"
+          required
+        />
+
+        <label for="mensagem" class="form__label">Message</label>
+        <textarea
+          name="mensagem"
+          id="mensagem"
+          cols="70"
+          rows="10"
+          class="form__input"
+          required
+        ></textarea>
+
+        <fieldset>
+          <legend class="form__label">Como prefere nosso contato?</legend>
+          <label for="radio-email" class="form__label">
+            <input id="radio-email" name="contato" type="radio" value="email" />
+            Email</label
+          >
+
+          <label for="radio-telefone" class="form__label">
+            <input
+              id="radio-telefone"
+              name="contato"
+              type="radio"
+              value="telefone"
+            />
+            Celphone</label
+          >
+
+          <label for="radio-whatsapp" class="form__label">
+            <input
+              id="radio-whatsapp"
+              name="contato"
+              type="radio"
+              value="whatsapp"
+              checked
+            />
+            Whatsapp</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend class="form__label">
+            Qual horario pretende ser atendido
+          </legend>
+          <select name="" id="">
+            <option value="" selected>Manha</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+          </select>
+        </fieldset>
+
+        <label class="form__checkbox">
+          <input type="checkbox" name="" id="" checked /> Gostaria de recebeer
+          nossas novidade por Email</label
+        >
+
+        <input type="submit" value="Enviar formulario" class="form__enviar" />
+      </form>
+
+      <table class="table">
+        <thead class="table__header">
+          <tr>
+            <th>Dia</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h~20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h~20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>8h~20h</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer class="footer">
+      <img
+        class="footer__logo"
+        src="./src/assets/images/logo-branco.png"
+        alt="Logo da empresa"
+      />
+      <p class="footer__text">Copyright Douglas - 2022 &copy;</p>
+    </footer>
+  </body>
+</html>

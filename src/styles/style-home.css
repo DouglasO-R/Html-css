@@ -1,0 +1,35 @@
+
+h1,p,h2 {
+    text-align: center;
+}
+.banner{
+    width: 100%;
+}
+
+.main{
+    background-color: beige;
+    padding: 2rem;
+}
+
+
+
+#beneficios{
+    /* background-color: antiquewhite; */
+    display: block;
+}
+
+.item{
+    font-style: italic;
+    list-style: none;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.img-beneficios{
+    width: 50%;
+}
+
